@@ -22,8 +22,8 @@
       
 
     
-    <link rel="stylesheet" href="../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.5f77b4aec8189eecf79907ce328c390d.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
@@ -37,14 +37,11 @@
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
     <script src="../_static/doctools.js"></script>
-    <script src="../_static/language_data.js"></script>
     <script src="../_static/togglebutton.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -56,7 +53,7 @@
     <link rel="shortcut icon" href="../_static/logo.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="prev" title="Intro 2: Statistik i Python" href="intro_2_statistik_i_python.html" />
+    <link rel="prev" title="Välkommen att använda Open Data" href="../intro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -89,7 +86,7 @@
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../intro.html">
-   Tervetuloa avoimen datan pariin
+   Välkommen att använda Open Data
   </a>
  </li>
 </ul>
@@ -99,16 +96,6 @@
  </span>
 </p>
 <ul class="current nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="intro_1_jupyter_python.html">
-   Intro 1: Använd Jupyter Notebooks
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="intro_2_statistik_i_python.html">
-   Intro 2: Statistik i Python
-  </a>
- </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Bra Virke!
@@ -273,7 +260,8 @@
                 
   <div class="section" id="bra-virke">
 <h1>Bra Virke!<a class="headerlink" href="#bra-virke" title="Permalink to this headline">¶</a></h1>
-<img src="https://raw.githubusercontent.com/cms-opendata-education/cms-jupyter-materials-finnish/master/Data/PukkisaariManty.jpg" alt="Tämä on uloin pala vanhaa runkoa."><p>Ovan syns ett stycke av en tall, som föll i en höststorm på Pukkisaari, Helsingfors 2020. Furan hade växt där sedan 1700-talet och hade gått igenom mycket under den tiden. Precis som våra marker visar spår av istiden kan också trädens växtmönster tala om klimatförhållanden genom historien. I den här övningen undersöker vi hur det här exemplaret jämför sig med historiska väderrapporter.</p>
+<img alt="Tämä on uloin pala vanhaa runkoa." src="https://raw.githubusercontent.com/cms-opendata-education/cms-jupyter-materials-finnish/master/Data/PukkisaariManty.jpg" />
+<p>Ovan syns ett stycke av en tall, som föll i en höststorm på Pukkisaari, Helsingfors 2020. Furan hade växt där sedan 1700-talet och hade gått igenom mycket under den tiden. Precis som våra marker visar spår av istiden kan också trädens växtmönster tala om klimatförhållanden genom historien. I den här övningen undersöker vi hur det här exemplaret jämför sig med historiska väderrapporter.</p>
 <div class="section" id="arsringar-hur-uppkommer-de">
 <h2>Årsringar - Hur uppkommer de?<a class="headerlink" href="#arsringar-hur-uppkommer-de" title="Permalink to this headline">¶</a></h2>
 <p>Många trädarter kan leva i hundratals år. De växer genom en långsam, periodisk process, och spåren av den syns i stammen. Genom att undersöka stora mängder av fällda träd och jämföra dem skogar emellan kan man få information om klimatets variationer långa tider tillbaka. <a class="reference external" href="https://www.luke.fi/tietoa-luonnonvaroista/metsa/metsat-ja-ilmastonmuutos/puiden-vuosilustot/">Lapplands Årsringskalender</a> grundas på sådan data från de senaste 7600 åren. Äldre träd har t.ex. kunnat fiskas upp från sjöbottnar, där de har bevarats under tusentals år. Sådana <a class="reference external" href="https://sv.wikipedia.org/wiki/Dendrokronologi">dendrokronologiska</a> undersökningar kan visa oss tidpunkter för de största vulkanutbrotten och mest betydande vädermässiga avvikelserna, och ger en liknande inblick i klimathistorien som polarområdenas isborrningar och världshavens uråldriga koraller.</p>
@@ -760,12 +748,12 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;ipython-input-5-4568cb8ee384&gt;:17: SettingWithCopyWarning: 
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_1614/2249693193.py:17: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   KSade[&quot;KA&quot;][i] = (KSade[&quot;Tammi&quot;][i]+KSade[&quot;Helmi&quot;][i]+KSade[&quot;Maalis&quot;][i]+KSade[&quot;Huhti&quot;][i]+KSade[&quot;Touko&quot;][i]
-&lt;ipython-input-5-4568cb8ee384&gt;:22: SettingWithCopyWarning: 
+/tmp/ipykernel_1614/2249693193.py:22: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
@@ -820,8 +808,9 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 <h3>3. Djupare analys<a class="headerlink" href="#djupare-analys" title="Permalink to this headline">¶</a></h3>
 <p>Vi undersöker den tillgängliga informationen en aning noggrannare. Trädens tillväxt sker inte under hela året, så det årliga medeltalet säger inte så mycket. Vi begränsar beräkningarna till vissa årstider istället. Valet av begränsningar är ett omfattande beslut, men vi börjar med en grov indelning i sommar- och vintertid.</p>
 <p>Du kan själv välja indelningen enligt intresse. En bra indelning kunde vara att följa den <a class="reference external" href="https://sv.wikipedia.org/wiki/Vegetationsperiod">termiska vegetationsperioden</a>, då medeltemperaturen överstiger 5°C. <a class="reference external" href="https://www.ilmatieteenlaitos.fi/terminen-kasvukausi">Meteorologiska institutets kartor</a> över vegetationsperioden säger oss att perioden i detta område varar från slutet av april till slutet av oktober. (Kartorna är baserade på åren 1981-2020. Tidigare år var i allmänhet kallare.)</p>
-<img src = "https://old.ilmatieteenlaitos.fi/image/image_gallery?groupId=30106&t=1353329979095&uuid=cf942d29-b79d-4836-9587-0c269451272e" align = left>
-<img src = "https://old.ilmatieteenlaitos.fi/image/image_gallery?groupId=30106&t=1353329979095&uuid=42653c45-a1e2-4fba-8eb6-ad248b65766b" align = center> <div class="cell docutils container">
+<img alt="https://old.ilmatieteenlaitos.fi/image/image_gallery?groupId=30106&amp;t=1353329979095&amp;uuid=cf942d29-b79d-4836-9587-0c269451272e" class="align-left" src="https://old.ilmatieteenlaitos.fi/image/image_gallery?groupId=30106&amp;t=1353329979095&amp;uuid=cf942d29-b79d-4836-9587-0c269451272e" />
+<img alt="https://old.ilmatieteenlaitos.fi/image/image_gallery?groupId=30106&amp;t=1353329979095&amp;uuid=42653c45-a1e2-4fba-8eb6-ad248b65766b" class="align-center" src="https://old.ilmatieteenlaitos.fi/image/image_gallery?groupId=30106&amp;t=1353329979095&amp;uuid=42653c45-a1e2-4fba-8eb6-ad248b65766b" />
+<div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Vi åtskiljer medeltalen för tillväxtperioderna och vintrarna. </span>
 
@@ -865,22 +854,22 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;ipython-input-8-3d5a29bdc1ff&gt;:23: SettingWithCopyWarning: 
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_1614/106824812.py:23: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   KSade[&quot;KAK&quot;][i] = (KSade[&quot;Touko&quot;][i]+KSade[&quot;Kesä&quot;][i]+KSade[&quot;Heinä&quot;][i]
-&lt;ipython-input-8-3d5a29bdc1ff&gt;:27: SettingWithCopyWarning: 
+/tmp/ipykernel_1614/106824812.py:27: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   KLam[&quot;KAK&quot;][i] = (KLam[&quot;Touko&quot;][i]+KLam[&quot;Kesä&quot;][i]+KLam[&quot;Heinä&quot;][i]
-&lt;ipython-input-8-3d5a29bdc1ff&gt;:33: SettingWithCopyWarning: 
+/tmp/ipykernel_1614/106824812.py:33: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   KSade[&quot;KAT&quot;][i] = (KSade[&quot;Tammi&quot;][i]+KSade[&quot;Helmi&quot;][i]+KSade[&quot;Maalis&quot;][i]+KSade[&quot;Huhti&quot;][i]
-&lt;ipython-input-8-3d5a29bdc1ff&gt;:37: SettingWithCopyWarning: 
+/tmp/ipykernel_1614/106824812.py:37: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
@@ -996,7 +985,7 @@ See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stab
         
         <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="intro_2_statistik_i_python.html" title="previous page">Intro 2: Statistik i Python</a>
+    <a class='left-prev' id="prev-link" href="../intro.html" title="previous page">Välkommen att använda Open Data</a>
 
         </div>
         
