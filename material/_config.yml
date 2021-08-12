@@ -76,5 +76,5 @@ sphinx:
   # A list of extra extensions to load by Sphinx (added to those already used by JB).
   config:
       html_show_copyright: false
-      language: en
+      language: se
 only_build_toc_files: true
